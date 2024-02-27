@@ -1,0 +1,269 @@
+*{
+    margin: 10px;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://media.timeout.com/images/103382355/image.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 1600px;
+    position: relative;
+    background-color: aquamarine;
+    transition-duration: 3s;
+}
+
+.subject{
+    height: 600px;
+    background-size: 650px;
+    align-items: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 60px;
+}
+.subject h1{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(59, 53, 53);
+    border: red;
+}
+.Menu_bar h1{
+    color: rgb(253, 52, 52);
+    background-color: rgb(172, 205, 206);
+    transition-duration: 3s;
+}
+.Menu_bar h1:hover{
+    color: rgb(207, 153, 153);
+    background-color: rgb(49, 63, 63);
+}
+.form h1{
+    color: rgb(243, 63, 63);
+    background-color: rgb(87, 172, 175);
+    transition-duration: 3s;
+}
+.form h1:hover{
+    color: rgb(233, 170, 170);
+    background-color: rgb(18, 22, 22);
+}
+
+
+.Menu_bar ul{
+    float: right;
+}
+.Menu_bar ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    padding: 5px;
+}
+.Menu_bar ul li a{
+    color: rgb(68, 10, 2);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    display: block;
+}
+.Menu_bar ul li a:hover{
+    text-decoration: none;
+    transition-duration: 1s;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: crimson;
+    border-bottom: 3px;
+}
+.Menu_bar ul li ul{
+    display: none;
+    position: absolute;
+    border-radius: 0px 0px 5px 5px;
+    background-color: rgb(188, 223, 223);
+    border-radius: 15px;
+}
+.Menu_bar ul li:hover ul{
+    display: block;
+}
+.Menu_bar ul li ul li{
+    line-height: 20px;
+    width: 130px;
+    border-radius: 5px;
+    padding: 0;
+}
+.Menu_bar ul li ul button{
+    background-color: rgb(0, 138, 138);
+    border-radius: 8px;
+    color: #080808;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+.Menu_bar ul li ul button:hover{
+    background-color: rgb(0, 32, 138);
+    border-radius: 8px;
+    color: #f8f0f0;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+form {
+    background-color: linear-gradient(rgba(rgb(130, 130, 226)));
+    align-items: center;
+    justify-content: center;
+    margin: 140px 550px;
+    width: 300px;
+    height: 200px;
+}
+  
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #dfcece;
+    box-sizing: border-box;
+}
+button {
+    background-color: #02b473;
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    transition-duration: 3s;
+}
+button:hover{
+    color: rgb(227, 227, 245);
+    background-color: rgb(35, 33, 126);
+    text-align: center;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 20px 0 12px 0;
+}
+img.logo {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 10px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 5px;
+    display: block;
+    float: none;
+    color: rgb(3, 3, 95);
+}
+.menu{
+    padding: 0 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px 40px;
+}
+.heading{
+    background-color:rgb(49, 113, 136);
+    color: wheat;
+    font-weight: bolder;
+    grid-column: 1/-1;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);;
+    transition-duration: 5s;
+}
+.heading:hover{
+    color: rgb(14, 8, 8);
+    background-color: rgb(185, 72, 72);
+}
+.heading>h1{
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.heading>h3{
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.Clothes{
+    display: grid;
+    position: relative;
+    grid-area: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    
+}
+.Clothes img{
+    position: relative;
+    width: 70%;
+    height: 300px;
+    border-radius: 25px 25px 25px 0;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);;
+    cursor: pointer;
+}
+h1{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    row-gap: 15px;
+}
+.details-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.details-sub>h5{
+    color: rgb(49, 49, 180);
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(233, 239, 240);
+    
+}
+.details-sub>h5:hover{
+    color: rgb(14, 8, 8);
+    background-color: rgb(241, 172, 172);
+}
+
+.details>p{
+    color:rgb(25, 25, 39);
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.details>p:hover{
+    color: rgb(248, 247, 247);
+    background-color: rgb(14, 13, 13);
+}
+.details>button{
+    background-color: rgb(3, 3, 68);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+}
+.details>button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 172, 172);
+    text-align: center;
+}
